@@ -1,0 +1,241 @@
+.row-layout {
+  display: flex;
+}
+.dashboard-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  height: 100%;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.dashboard {
+  background-color: rgba(255, 255, 255, 1);
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: min-content;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.group {
+  background-color: var(--ig-secondary-700);
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  padding: 10px 20px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.left {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+}
+.right {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  height: 93.3%;
+  min-width: 1440px;
+  min-height: 93.3%;
+  max-width: 100%;
+  max-height: 93.3%;
+}
+.group_2 {
+  background-color: var(--ig-gray-100);
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 24px;
+  overflow: hidden;
+  position: relative;
+  padding: 28px 16px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 186px;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.group_4 {
+  background-color: var(--ig-surface-500);
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  padding: 14px 24px 24px 40px;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.cards {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+}
+.card {
+  position: relative;
+  width: 240px;
+  height: max-content;
+  min-width: min-content;
+  max-width: 240px;
+}
+.avatar {
+  --ig-size: var(--ig-size-small);
+  position: relative;
+}
+.icon {
+  color: #FFFFFFFF;
+}
+.icon_1 {
+  color: var(--ig-gray-900);
+}
+.icon_2 {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: #FFFFFFFF;
+  position: relative;
+  min-width: min-content;
+}
+.icon_3 {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: var(--ig-gray-700);
+}
+.icon_4 {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: var(--ig-primary-500);
+}
+.title {
+  color: var(--ig-gray-900);
+  position: relative;
+}
+.title_1 {
+  color: var(--ig-gray-900);
+  position: relative;
+  align-self: stretch;
+}
+.image {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.icon_5 {
+  color: var(--ig-gray-800);
+}
+.avatar::part(base) {
+  background-color: transparent;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  position: relative;
+  height: max-content;
+}
+.button_1 {
+  right: 24px;
+  bottom: 24px;
+  position: absolute;
+  height: max-content;
+}
+.button_2::part(base) {
+  color: #FFFFFFFF;
+}
+.button_3::part(base) {
+  color: var(--ig-gray-900);
+  background-color: var(--ig-surface-500);
+}
+.button_1_1::part(base) {
+  color: var(--ig-gray-900);
+  background-color: var(--ig-secondary-500);
+}
+.media-content {
+  height: 400px;
+  min-height: 400px;
+  max-height: 400px;
+}
+.actions-content {
+  min-width: 50px;
+  min-height: 40px;
+}
+.button_4::part(base) {
+  color: var(--ig-gray-800);
+  background-color: #FFFFFF00;
+}
+.button_5 {
+  position: relative;
+}
+.button_4_1::part(base) {
+  color: var(--ig-gray-800);
+  background-color: #FFFFFF00;
+}
+.button_5_1::part(base) {
+  color: var(--ig-gray-800);
+  background-color: #FFFFFF00;
+}
+.button_5_2::part(base) {
+  color: var(--ig-gray-900);
+  background-color: #FFFFFF00;
+}
+.button_5_3::part(base) {
+  color: var(--ig-gray-800);
+  background-color: #FFFFFF00;
+}
+.button_5_4::part(base) {
+  color: var(--ig-gray-900);
+  background-color: #FFFFFF00;
+}
+.nav-drawer {
+  min-width: min-content;
+  max-width: 68px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.nav-drawer-item {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+}
+.nav-drawer::part(main) {
+  width: 68px;
+}
+.list {
+  position: relative;
+  width: 218px;
+  min-width: 218px;
+  max-width: 218px;
+}
